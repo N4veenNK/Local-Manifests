@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
           
-  <remote name="Naveen-nk1"
+  <remote name="N4veenNK"
           fetch="https://github.com/N4veenNK" />
 
   <!-- Sync trees -->
