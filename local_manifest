@@ -2,12 +2,12 @@
 <manifest>
           
   <remote name="Naveen-nk1"
-          fetch="https://github.com/Naveen-nk1" />
+          fetch="https://github.com/N4veenNK" />
 
   <!-- Sync trees -->
-        <project path="device/asus/X00T" name="device_asus_X00T-1 " remote="Naveen-nk1" revision="lineage-18.1" clone-depth="1" />
-        <project path="vendor/asus" name="proprietary_vendor_asus-1" remote="Naveen-nk1" revision="lineage-18.1" clone-depth="1" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660-2" remote="Naveen-nk1" revision="master" clone-depth="1" />
+        <project path="device/asus/X00T" name="device_asus_X00T-1 " remote="N4veenNK" revision="lineage-18.1" clone-depth="1" />
+        <project path="vendor/asus" name="proprietary_vendor_asus-1" remote="N4veenNK" revision="lineage-18.1" clone-depth="1" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660-2" remote="N4veenNK" revision="master" clone-depth="1" />
 
 </manifest>
         
