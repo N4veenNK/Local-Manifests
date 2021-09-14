@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
           
-  <remote name="Naveen-nk1"
-          fetch="https://github.com/Naveen-nk1" />
+  <remote name="N4veenNK"
+          fetch="https://github.com/N4veenNK" />
 
   <!-- Sync trees -->
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Naveen-nk1" revision="R" clone-depth="1" />
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Naveen-nk1" revision="R" clone-depth="1" />
-        <project path="vendor/asus" name="vendor_asus" remote="Naveen-nk1" revision="R" clone-depth="1" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Naveen-nk1" revision="hackneyed" clone-depth="1" />
+
+        <project path="device/asus/X00T" name="android_device_asus_X00T" remote="N4veenNK" revision="11" clone-depth="1" />
+        <project path="vendor/asus" name="proprietary_vendor_asus-1" remote="N4veenNK" revision="lineage-18.1" clone-depth="1" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660-2" remote="N4veenNK" revision="master" clone-depth="1" />
 
 </manifest>
         
