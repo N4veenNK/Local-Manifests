@@ -4,11 +4,13 @@
   <remote name="N4veenNK"
           fetch="https://github.com/N4veenNK" />
 
+  <remove-project name="device_qcom_sepolicy-legacy-um" />
+          
   <!-- Sync trees -->
 
         <project path="device/asus/X00TD" name="device_asus_X00TD-1" remote="N4veenNK" revision="Legion" clone-depth="1" />
         <project path="vendor/asus" name="vendor_asus_X00TD" remote="N4veenNK" revision="11" clone-depth="1" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660-1" remote="N4veenNK" revision="perf" clone-depth="1" />
-
+        <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="N4veenNK" revision="11" />
 </manifest>
         
