@@ -11,12 +11,12 @@
         <project path="vendor/asus" name="vendor_asus_X00TD" remote="N4veenNK" revision="11" clone-depth="1" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660-1" remote="N4veenNK" revision="perf" clone-depth="1" />
 	
-        <remove-project name="hw_media" />
-        <remove-project name="hw_audio" /> 
-        <remove-project name="hw_display" />
-        <remove-project name="devi*/a*/X*/vendors*" />
-        <project name="hw_media" path="hardware/qcom-caf/msm8998/media" remote="pkm774" revision="audio-hal.lnx.8.0.r14-rel" clone-depth="1" />
-        <project name="hw_audio" path="hardware/qcom-caf/msm8998/audio" remote="pkm774" revision="11" clone-depth="1" /> 
-        <project name="hw_display" path="hardware/qcom-caf/msm8998/display" remote="pkm774" revision="11" clone-depth="1" /> 
+        <remove-project name="hardware_qcom-caf_media" />
+        <remove-project name="hardware_qcom-caf_audio" /> 
+        <remove-project name="hardware_qcom-caf_display" />
+        <project name="hardware_qcom-caf_media" path="hardware/qcom-caf/msm8998/media" remote="pkm774" revision="audio-hal.lnx.8.0.r14-rel" clone-depth="1" />
+        <project name="hardware_qcom-caf_audio" path="hardware/qcom-caf/msm8998/audio" remote="pkm774" revision="11" clone-depth="1" /> 
+        <project name="hardware_qcom-caf_display" path="hardware/qcom-caf/msm8998/display" remote="pkm774" revision="11" clone-depth="1" /> 
+
 </manifest>
         
