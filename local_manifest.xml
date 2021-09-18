@@ -11,9 +11,9 @@
         <project path="vendor/asus" name="vendor_asus_X00TD" remote="N4veenNK" revision="11" clone-depth="1" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660-1" remote="N4veenNK" revision="perf" clone-depth="1" />
 	
-        <remove-project name="hardware_qcom-caf_media" />
-        <remove-project name="hardware_qcom-caf_audio" /> 
-        <remove-project name="hardware_qcom-caf_display" />
+        <remove-project name="android_hardware_qcom_media" />
+        <remove-project name="android_hardware_qcom_audio" /> 
+        <remove-project name="android_hardware_qcom_display" />
         <project name="hardware_qcom-caf_media_msm8998" path="hardware/qcom-caf/msm8998/media" remote="pkm774" revision="11" clone-depth="1" />
         <project name="hardware_qcom-caf_msm8998_audio" path="hardware/qcom-caf/msm8998/audio" remote="pkm774" revision="audio-hal.lnx.8.0.r14-rel" clone-depth="1" /> 
         <project name="hardware_qcom-caf_display_msm8998" path="hardware/qcom-caf/msm8998/display" remote="pkm774" revision="11" clone-depth="1" /> 
