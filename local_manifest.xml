@@ -17,6 +17,6 @@
         <remove-project name="devi*/a*/X*/vendors*" />
         <project name="hw_media" path="hardware/qcom-caf/msm8998/media" remote="pkm774" revision="audio-hal.lnx.8.0.r14-rel" clone-depth="1" />
         <project name="hw_audio" path="hardware/qcom-caf/msm8998/audio" remote="pkm774" revision="11" clone-depth="1" /> 
-        <project name="hw_display" path="hardware/qcom-caf/msm8998/display" remote="xyz-prjkt" revision="11" clone-depth="1" /> 
+        <project name="hw_display" path="hardware/qcom-caf/msm8998/display" remote="pkm774" revision="11" clone-depth="1" /> 
 </manifest>
         
