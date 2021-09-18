@@ -3,14 +3,20 @@
           
   <remote name="N4veenNK"
           fetch="https://github.com/N4veenNK" />
-
-  <remove-project name="device_qcom_sepolicy-legacy-um" />
-          
+	<remote name="pkm774"
+          fetch="https://github.com/pkm774" />
+	
   <!-- Sync trees -->
-
-        <project path="device/asus/X00TD" name="device_asus_X00TD-1" remote="N4veenNK" revision="Legion" clone-depth="1" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD-1" remote="N4veenNK" revision="SPARK" clone-depth="1" />
         <project path="vendor/asus" name="vendor_asus_X00TD" remote="N4veenNK" revision="11" clone-depth="1" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660-1" remote="N4veenNK" revision="perf" clone-depth="1" />
-        <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="N4veenNK" revision="11" />
+	
+        <remove-project name="hw_media" />
+        <remove-project name="hw_audio" /> 
+        <remove-project name="hw_display" />
+        <remove-project name="devi*/a*/X*/vendors*" />
+        <project name="hw_media" path="hardware/qcom-caf/msm8998/media" remote="pkm774" revision="audio-hal.lnx.8.0.r14-rel" clone-depth="1" />
+        <project name="hw_audio" path="hardware/qcom-caf/msm8998/audio" remote="pkm774" revision="11" clone-depth="1" /> 
+        <project name="hw_display" path="hardware/qcom-caf/msm8998/display" remote="xyz-prjkt" revision="11" clone-depth="1" /> 
 </manifest>
         
