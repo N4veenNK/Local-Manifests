@@ -14,9 +14,9 @@
         <remove-project name="hardware_qcom-caf_media" />
         <remove-project name="hardware_qcom-caf_audio" /> 
         <remove-project name="hardware_qcom-caf_display" />
-        <project name="hardware_qcom-caf_media" path="hardware/qcom-caf/msm8998/media" remote="pkm774" revision="audio-hal.lnx.8.0.r14-rel" clone-depth="1" />
-        <project name="hardware_qcom-caf_audio" path="hardware/qcom-caf/msm8998/audio" remote="pkm774" revision="11" clone-depth="1" /> 
-        <project name="hardware_qcom-caf_display" path="hardware/qcom-caf/msm8998/display" remote="pkm774" revision="11" clone-depth="1" /> 
+        <project name="hardware_qcom-caf_msm8998_media" path="hardware/qcom-caf/msm8998/media" remote="pkm774" revision="audio-hal.lnx.8.0.r14-rel" clone-depth="1" />
+        <project name="hardware_qcom-caf_msm8998_audio" path="hardware/qcom-caf/msm8998/audio" remote="pkm774" revision="11" clone-depth="1" /> 
+        <project name="hardware_qcom-caf_msm8998_display" path="hardware/qcom-caf/msm8998/display" remote="pkm774" revision="11" clone-depth="1" /> 
 
 </manifest>
         
