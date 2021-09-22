@@ -7,8 +7,9 @@
           fetch="https://github.com/LineageOS" />
 
   <!-- Sync trees -->
-        <project path="device/asus/X00T" name="android_device_asus_X00T" remote="N4veenNK" revision="11" clone-depth="1" />
-        <project path="vendor/asus" name="proprietary_vendor_asus-1" remote="N4veenNK" revision="lineage-18.1" clone-depth="1" />
+        <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="N4veenNK" revision="lineage-18.1" clone-depth="1" />
+        <project path="device/asus/X00TD" name="android_device_asus_sdm660-common" remote="N4veenNK" revision="lineage-18.1" clone-depth="1" />
+        <project path="vendor/asus" name="proprietary_vendor_asus-2" remote="N4veenNK" revision="lineage-18.1" clone-depth="1" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660-1" remote="N4veenNK" revision="perf" clone-depth="1" />
        
         <remove-project name="android_lineage-sdk" />
