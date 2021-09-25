@@ -13,7 +13,7 @@
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660-1" remote="N4veenNK" revision="perf" clone-depth="1" />
        
         <remove-project name="android_lineage-sdk" />
-        <project path="android/lineage-sdk" name="android_lineage-sdk" remote="LineageOS" revision="lineage-18.1" clone-depth="1" />
+        <project path="lineage-sdk" name="android_lineage-sdk" remote="LineageOS" revision="lineage-18.1" clone-depth="1" />
                                                                                                   
 </manifest>
         
