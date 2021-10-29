@@ -12,8 +12,8 @@
         <project path="vendor/asus" name="vendor_asus_X00TD" remote="N4veenNK" revision="twelve" clone-depth="1" />
         <project path="kernel/asus/sdm660" name="velocity" remote="N4veenNK" revision="twelve" clone-depth="1" />
         
-        <remove-project name="platform_system_bpf" />  
-        <remove-project name="platform_system_netd" />
+        <remove-project name="platform/system/bpf" />  
+        <remove-project name="platform/system/netd" />
         <project name="platform_system_bpf" path="system/bpf" remote="jaichiranjeeva" revision="12.x" clone-depth="1" />
         <project name="platform_system_netd" path="system/netd" remote="jaichiranjeeva" revision="12.x" clone-depth="1" />
           
