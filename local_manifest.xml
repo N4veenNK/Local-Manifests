@@ -22,4 +22,5 @@
         <project name="build" path="build/make" remote="N4veenNK" revision="twelve" clone-depth="1" />
         <project name="system_sepolicy" path="system/sepolicy" remote="N4veenNK" revision="twelve" clone-depth="1" />
         <project name="vendor_radiant" path="vendor/radiant" remote="N4veenNK" revision="twelve" clone-depth="1" />
+        
 </manifest>        
