@@ -19,7 +19,7 @@
         <remove-project name="vendor_radiant" />
         <project name="platform_system_bpf" path="system/bpf" remote="jaichiranjeeva" revision="12.x" clone-depth="1" />
         <project name="platform_system_netd" path="system/netd" remote="jaichiranjeeva" revision="12.x" clone-depth="1" />
-        <project name="build" path="build/make" remote="N4veenNK" revision="twelve" clone-depth="1" />
+        <project name="build" path="build" remote="N4veenNK" revision="twelve" clone-depth="1" />
         <project name="system_sepolicy" path="system/sepolicy" remote="N4veenNK" revision="twelve" clone-depth="1" />
         <project name="vendor_radiant" path="vendor/radiant" remote="N4veenNK" revision="twelve" clone-depth="1" />
         
