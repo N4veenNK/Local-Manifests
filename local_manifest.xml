@@ -3,11 +3,21 @@
           
   <remote name="N4veenNK"
           fetch="https://github.com/N4veenNK" />
-
+  <remote name="jaichiranjeeva"
+          fetch="https://github.com/jaichiranjeeva" />
+  <remote name="pkm774"
+          fetch="https://github.com/pkm774" />
+          
   <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD-1" remote="N4veenNK" revision="Q" clone-depth="1" />
-        <project path="device/asus/sdm660-common" name="asus_sdm660-common" remote="N4veenNK" revision="test" clone-depth="1" />
-        <project path="vendor/asus" name="proprietary_vendor_asus" remote="N4veenNK" revision="Q" clone-depth="1" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660-2" remote="N4veenNK" revision="master" clone-depth="1" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="N4veenNK" revision="eleven" clone-depth="1" />
+        <project path="vendor/asus" name="vendor_asus_X00TD" remote="jaichiranjeeva" revision="11" clone-depth="1" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660-1" remote="N4veenNK" revision="perf" clone-depth="1" />
+
+        <remove-project name="hardware_qcom-caf_msm8998_audio" />
+        <remove-project name="hardware_qcom-caf_msm8998_display" /> 
+        <remove-project name="hardware_qcom-caf_msm8998_media" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="pkm774" revision="audio-hal.lnx.8.0.r14-rel" clone-depth="1" />
+        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_display_msm8998" remote="pkm774" revision="11" clone-depth="1" /> 
+        <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_media_msm8998" remote="pkm774" revision="11" clone-depth="1" /> 
 
 </manifest>        
