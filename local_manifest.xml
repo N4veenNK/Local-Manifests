@@ -10,4 +10,4 @@
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="N4veenNK" revision="Q" clone-depth="1" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660-2" remote="N4veenNK" revision="master" clone-depth="1" />
 
-</manifest>        
+</manifest>
